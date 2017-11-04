@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root 'application#which_day'
+  root to: 'calendar#index'
+  get 'calendar/index'
 end
