@@ -8,8 +8,9 @@
 // compiled file. JavaScript code in this file should be added after the last require_* statement.
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 //
-//= require moment
-//= require fullcalendar
+//= require lib/moment.min.js
+//= require lib/jquery.min.js
+//= require fullcalendar/fullcalendar.js
 //= require fullcalendar/lang/ja
 //
 //= require turbolinks
