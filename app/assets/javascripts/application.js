@@ -12,6 +12,7 @@
 //= require lib/jquery.min.js
 //= require fullcalendar/fullcalendar.js
 //= require fullcalendar/lang/ja
+//= require fullcalendar/gcal.js
 //
 //= require turbolinks
 //= require_tree .
