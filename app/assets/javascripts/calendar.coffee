@@ -1,4 +1,3 @@
-###
 $(document).ready ->
   $('#calendar').fullCalendar
     #events: '/events.json'
@@ -18,7 +17,6 @@ $(document).ready ->
       return
   return
 ###
-
 $(document).ready ->
   $('#calendar').fullCalendar
     #events: '/events.json'
@@ -37,3 +35,4 @@ $(document).ready ->
       alert result
       return
   return
+###
