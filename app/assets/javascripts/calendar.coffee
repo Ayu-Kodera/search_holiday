@@ -1,8 +1,24 @@
 $(document).ready ->
   $('#calendar').fullCalendar
     #events: '/events.json'
+
+    # 選択中の日程の色を変える
     selectable: true
     selectHelper: true
+
+    ### エラーでわからん
+    header: center: 'month,agendaWeek'
+    views: month: titleFormat: 'YYYY, MM, DD'
+    ###
+    
+    # 6日間カレンダー（１日あたりの予定を書ける、機能はまだ無し）
+    header: center: 'month,agendaFourDay'
+    views: agendaFourDay:
+      type: 'agenda'
+      buttonText: '6 day'
+      defaultView: 'timeline'
+      duration: days: 6
+
     dayClick: (date) ->
       base_date = "2017-11-03"
       input_date = moment(date).format('YYYY/MM/DD')
