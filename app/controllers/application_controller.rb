@@ -6,6 +6,8 @@ class ApplicationController < ActionController::Base
   end
 
   def which_day
+    base_date = 1
+    base_date = 2
     base_date = 3
     #input_date = STDIN.gets.chomp
     input_date = 15
